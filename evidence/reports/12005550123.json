@@ -1,0 +1,16 @@
+{
+    "investigation_type": "Batch Phone Number OSINT",
+    "timestamp_utc": "2026-11-09T12:20:47.476081+00:00",
+    "input_number": "+12005550123",
+    "international_format": "+1 200-555-0123",
+    "e164_format": "+12005550123",
+    "country_code": 1,
+    "region": null,
+    "valid_number": false,
+    "possible_number": true,
+    "geographical_description": "",
+    "original_carrier": "",
+    "associated_timezones": [
+        "Etc/Unknown"
+    ]
+}

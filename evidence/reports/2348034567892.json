@@ -1,0 +1,16 @@
+{
+    "investigation_type": "Batch Phone Number OSINT",
+    "timestamp_utc": "2026-11-09T12:20:47.473195+00:00",
+    "input_number": "+2348034567892",
+    "international_format": "+234 803 456 7892",
+    "e164_format": "+2348034567892",
+    "country_code": 234,
+    "region": "NG",
+    "valid_number": true,
+    "possible_number": true,
+    "geographical_description": "Nigeria",
+    "original_carrier": "MTN",
+    "associated_timezones": [
+        "Africa/Lagos"
+    ]
+}

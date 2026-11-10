@@ -1,0 +1,3 @@
+input_number,international_format,e164_format,country_code,region,valid_number,possible_number,geographical_description,original_carrier,associated_timezones,timestamp_utc
++2348034567892,+234 803 456 7892,+2348034567892,234,NG,True,True,Nigeria,MTN,Africa/Lagos,2026-11-09T12:20:47.473195+00:00
++12005550123,+1 200-555-0123,+12005550123,1,,False,True,,,Etc/Unknown,2026-11-09T12:20:47.476081+00:00

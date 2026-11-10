@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Phone Number OSINT Investigation Report</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 30px;
+    color: #222;
+}
+
+header {
+    background: #172554;
+    color: white;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.cards {
+    display: flex;
+    gap: 15px;
+    margin: 25px 0;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 140px;
+    box-shadow: 0 2px 6px #ddd;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    font-size: 13px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: #172554;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #eef2ff;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 12px;
+    color: #666;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Phone Number OSINT Investigation</h1>
+    <p>Automated Numbering Metadata Analysis Report</p>
+</header>
+
+<section class="cards">
+
+    <div class="card">
+        <h3>Total Investigated</h3>
+        <h2>2</h2>
+    </div>
+
+    <div class="card">
+        <h3>Valid Numbers</h3>
+        <h2>1</h2>
+    </div>
+
+    <div class="card">
+        <h3>Invalid Numbers</h3>
+        <h2>1</h2>
+    </div>
+
+</section>
+
+<h2>Country Code Distribution</h2>
+
+<ul>
+    <li>Country Code +234: 1</li><li>Country Code +1: 1</li>
+</ul>
+
+<h2>Investigation Results</h2>
+
+<table>
+<thead>
+<tr>
+    <th>Input Number</th>
+    <th>International Format</th>
+    <th>Region</th>
+    <th>Validity</th>
+    <th>Carrier Metadata</th>
+    <th>Timezone</th>
+    <th>Timestamp (UTC)</th>
+</tr>
+</thead>
+
+<tbody>
+
+        <tr>
+            <td>+2348034567892</td>
+            <td>+234 803 456 7892</td>
+            <td>NG</td>
+            <td>VALID</td>
+            <td>MTN</td>
+            <td>Africa/Lagos</td>
+            <td>2026-11-09T12:20:47.473195+00:00</td>
+        </tr>
+
+        <tr>
+            <td>+12005550123</td>
+            <td>+1 200-555-0123</td>
+            <td>Unknown</td>
+            <td>INVALID</td>
+            <td>Unknown</td>
+            <td>Etc/Unknown</td>
+            <td>2026-11-09T12:20:47.476081+00:00</td>
+        </tr>
+
+</tbody>
+</table>
+
+<footer>
+    <p>Generated: 2026-11-09T12:53:50.129426+00:00</p>
+    <p>Privacy Notice: This report contains numbering metadata, not verified subscriber identity or live location.</p>
+    <p>For authorized research and educational use only.</p>
+</footer>
+
+</body>
+</html>
